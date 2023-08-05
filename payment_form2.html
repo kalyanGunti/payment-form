@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form2</title>
+    <link rel="stylesheet" href="style-3.css">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1>Payment Form2</h1>
+        <h2>Contact Information</h2>
+        <p> Name:<input type="text" name="name"></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+            Male <input type="radio" name="male" id="male">
+            female <input type="radio" name="female" id="female">
+            </p>
+        </fieldset>
+        <p>Address: <textarea name="address" id="" cols="30" rows="10"></textarea></p>
+        <p>Email: <input type="email"></p>
+        <p>Pincode: <input type="number"></p>
+        <h2>Paymet Information</h2>
+        <p>Card Type: 
+            <select name="Card na,e" id="card name">
+                <option value="Visa">Visa</option>
+                <option value="Rupay">Rupay</option>
+                <option value="Debit card">Debit card</option>
+            </select>
+
+        </p>
+        <p>
+            Card Number: <input type="number" name="card_number" id="card_number">
+
+        </p>
+        <p>Expiration Date: <input type="date" name="exp date" id="exp date"></p>
+        <P>CVV: <input type="password" name="cvv" id="cvv"></P>
+        <input type="submit" value="Pay now">
+        <input type="submit">
+    </form>
+    </div>
+</body>
+</html>
